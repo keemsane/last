@@ -1,0 +1,67 @@
+        * {
+            border: 1px solid blue;
+            background-color: #ededed;
+            border-collapse: collapse;
+            font-family: sans-serif;
+        }                 
+        .container {
+            width: 1200px;
+            height: 1250px;
+            margin: 0 auto;
+        }
+        .scontainer { /* 로그인 자리 제외 배경 */
+            width: 1200px;
+            height: 1200px;
+        }
+        .a {            
+            display: table;
+            width: 1200px;
+            text-align: center;
+            opacity: 50%;
+        }
+        .ah { /* 헤더 배경 */
+            background-color: #ededed;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .maini { /* 메인 로고 배경 */
+            background-color: #ededed;
+            max-width: auto;
+            max-height: 150px;
+        }
+        .a1 {  /* 로그인, 가입 배경 */        
+            display: flex;
+            justify-content: flex-end;              
+            align-items: center;                   
+            background-color: #ededed;
+        }
+        .b1 { /* 내비게이션 바 */
+            font-weight: bold;
+            font-size: larger;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            background-color: #989898;            
+            height: 50px;            
+            align-items: center;
+        }
+        .c0 { /* 내브 아래 내용물 배경 */
+            display: flex;
+            justify-content: space-evenly;            
+        }
+        /* .c {            
+            margin: 75px auto;
+            height: 300px;
+            background-color: #bb937e;
+            display: flex;
+        } */
+        .d {
+            width: 300px;
+            background-color: #915549;            
+        }
+        .ed {
+            /* height: 50px; */
+            line-height: 50px;            
+            padding-left: 10px;
+            background-color: #989898;
+        }

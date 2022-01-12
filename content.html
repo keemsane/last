@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Content</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .s1 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 100px 0;
+        }
+        table {
+            border: 10px solid #989898;
+            border-radius: 100%;
+            border-collapse: collapse;
+        }
+        .tttl {
+            cursor: pointer;
+            text-align: left;
+        }
+        th {
+            padding: 10px;
+            border-collapse: collapse;
+            border: 2px solid #989898;
+        }     
+        #s1tb * {
+            border: 2px solid #989898;
+        }
+        tr {
+            height: 30px;
+        }
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="scontainer">
+        <div class="a1">
+            <div class="login">
+                <a href="member/login.html">로그인</a>
+            </div>
+            &nbsp; &nbsp; | &nbsp; &nbsp;
+            <div class="join">
+                <a href="member/join.html">회원가입</a>
+            </div>             
+        </div> 
+    <header class="a">
+        <h1 class="ah">
+            <a href="">
+                <img class="maini" src="main.png".PNG" alt="">
+            </a> 
+        </h1>
+    </header>
+    <nav class="b"> 
+        <ul class="b1" style="list-style-type: none;">
+            <li class="item">
+                    <a href="index.html">Home
+                    </a>
+                </li>
+            <li class="item">
+                <a href="about.html">
+                    About
+                </a>
+            </li>
+            <li class="item">
+                <a href="contact.html">
+                    Content
+                </a>
+            </li>
+            <!-- <li class="item">
+                <a href="faq.html">FAQ
+
+                </a>
+            </li> -->
+        </ul>
+    </nav>
+    <section>
+        <div class="s1">
+            <table class="s1tbl">
+                <caption>게시판</caption>
+                <thead id="s1th">
+                    <tr>
+                        <th>글번호</th>
+                        <th>제목</th>
+                        <th>작성자</th>
+                        <th>작성일</th>
+                        <th>조회수</th>
+                    </tr>
+                </thead>
+                <tfoot id="s1tf">
+                    <tr>
+                        <td colspan="5" class="tdpage"> 
+                            [prev] 
+                            <a href="../hwork2/contact.html">1</a>
+                            <a href="../hwork2/contact.html">2</a>
+                            <b>3</b>
+                            <a href="../hwork2/contact.html">4</a>
+                            <a href="../hwork2/contact.html">5</a>
+                            [next] </br/>
+                            <input type="text">
+                            <input id="but" type="button" value="검색"> 
+                        </tr>
+                </tfoot>
+                <tbody id="s1tb">
+                    <tr>
+                        <td>10</td>
+                        <td class="tttl">민식이법 이후 첫 '스쿨존 사망'</td>
+                        <td>Lorem.</td>
+                        <td>2022.01.13</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td class="tttl">오늘 중부지방 한때 비 하지만 대체로 맑음</td>
+                        <td>Lorem.</td>
+                        <td>2022.01.12</td>
+                        <td>33</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td class="tttl">파키스탄항공 여객기 추락</td>
+                        <td>Lorem.</td>
+                        <td>2022.01.11</td>
+                        <td>41</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td class="tttl">Lorem, ipsum.</td>
+                        <td>ipsum</td>
+                        <td>2022.01.10</td>
+                        <td>58</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td class="tttl">Lorem ipsum dolor sit amet consectetur.</td>
+                        <td>Jane</td>
+                        <td>2022.01.05</td>
+                        <td>45</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="tttl">Lorem, ipsum dolor.</td>
+                        <td>Tom</td>
+                        <td>2022.01.04</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="tttl">Lorem ipsum dolor sit amet.</td>
+                        <td>Larry</td>
+                        <td>2022.01.02</td>
+                        <td>98</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="tttl">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</td>
+                        <td>Cathy</td>
+                        <td>2022.01.01</td>
+                        <td>77</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="tttl">Lorem, ipsum dolor.</td>
+                        <td>Ryan</td>
+                        <td>2021.12.31</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td class="tttl">Lorem ipsum dolor sit amet.</td>
+                        <td>Tiger</td>
+                        <td>2021.12.25</td>
+                        <td>45</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</div>
+    <footer class="e">
+        <div class="ed">
+            copyright ⓒ 2022 KEEMSEUNGHYEON
+        </div>    
+    </footer>
+    </div>
+</body>
+</html>

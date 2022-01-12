@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="../main.css">
+    <style>
+        div.ja {
+            margin: 150px auto;
+            width: 800px;
+        }
+        div legend {
+            margin: 0 auto;
+        }
+        div label {
+            display: inline-block;
+            width: 130px ;
+            text-align: justify;
+            word-break: break-all;
+        }
+        form {
+            /* border: 10px solid grey; */
+            border-radius: 10px;
+            box-shadow: 0 0 20px 10px slategrey;
+        }
+        fieldset {
+            border: none;   
+            padding: 10px;         
+        }
+        .pend  {
+            padding: 10px;
+            text-align: center;         
+        }        
+
+    </style>
+   <script>
+    
+</script>
+ 
+</head>
+<body>
+    <div class="container">
+            <div class="scontainer">
+                <div class="a1">
+                    <div class="login">
+                        <a href="login.html">로그인</a>
+                    </div>
+                    &nbsp; &nbsp; | &nbsp; &nbsp;
+                    <div class="join">
+                        <a href="join.html">회원가입</a>
+                    </div>             
+                </div><!-- </div>a1  -->
+                <header class="a">
+                    <h1 class="ah">
+                        <a href="">
+                            <img class="maini" src="../main.png".PNG" alt="">
+                        </a> 
+                    </h1>                </header>
+                <nav class="b"> 
+                    <ul class="b1" style="list-style-type: none;">
+                        <li class="item">
+                                <a href="../index.html">
+                                    Home
+                                </a>
+                            </li>
+                        <li class="item">
+                            <a href="../about.html">
+                                About
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="../content.html">
+                                Content
+                            </a>
+                        </li>
+                        <!-- <li class="item">
+                            <a href="../faq.html">
+                                FAQ
+                            </a>
+                        </li> -->
+                    </ul>
+                </nav>
+                <div class="ja">
+                    <form action="" method="post" name="frm1">
+                        <fieldset>
+                            <legend>
+                                <h1 id="jah1">회원 정보 입력</h1>
+                            </legend>
+                            <p>
+                                <label for="">아 이 디 :</label>
+                                <input type="text" name="id" required autofocus>
+                                <input id="bu" type="button" value="ID중복검사" required>
+                            </p>
+                            <p>
+                                <label for="">비밀번호 :</label>
+                                <input id="pw" type="password" name="passwd" required placeholder="비밀번호를 입력하세요" onkeyup="pw1()">                
+                            </p>
+                            <p>
+                                <label for="">비밀번호 확인 :</label>
+                                <input id="pw" type="password" name="passwdcheck" required placeholder="비밀번호를 확인합니다">                
+                            </p>
+                            <p>
+                                <label for="">생년월일 :</label>
+                                <input id="birthday" name="birth" type="date" required>
+                            </p>
+                            <p>
+                                <label>성 별 :</label>
+                                <input class="rad" type="radio" name="gender" value="male">남성
+                                <input class="rad" type="radio" name="gender" value="female">여성
+                            </p>
+                            <p>
+                                <label for="">E-mail :</label>
+                                <input type="email" name="mailcon" required>
+                            </p>
+                            <p>
+                                <label for="">메일수신 :</label>
+                                <input class="rad" type="radio" name="mail" value="agree">수신동의
+                                <input class="rad" type="radio" name="mail" value="disagree">수신거부
+                            </p>
+                            <p>
+                                <label for="">핸드폰 :</label>
+                                <select name="" id="">
+                                    <option value="010">010</option>
+                                    <option value="011">011</option>
+                                    <option value="016">016</option>
+                                    <option value="017">017</option>
+                                    <option value="018">018</option>
+                                    <option value="019">019</option>
+                                </select>
+                                -
+                                <input class="pn" name="phone1" type="text" onkeyup="pn1()">
+                                -
+                                <input class="pn" name="phone2" type="text" onkeyup="pn2()">
+                            </p>
+                            <p>
+                                <label for="">직업 :</label>
+                                <select name="" id="">
+                                    <option value="student">학생</option>
+                                    <option value="salesperson">직장인</option>
+                                    <option value="householder">주부</option>
+                                    <option value="jobless">무직</option>
+                                    <option value="etc">그외</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label for="">취미 :</label>
+                                <input class="chb" type="checkbox" name="hobby" value="쇼핑"> 쇼핑
+                                <input class="chb" type="checkbox" name="hobby" value="게임"> 게임
+                                <input class="chb" type="checkbox" name="hobby" value="독서"> 독서
+                                <!-- <input class="chb" type="checkbox" name="hobby" value="스포츠"> 스포츠 -->
+                                <input class="chb" type="checkbox" name="hobby" value="운동"> 운동
+                                <input class="chb" type="checkbox" name="hobby" value="음악감상"> 음악감상
+                                <input class="chb" type="checkbox" name="hobby" value="free"> <input type="text" placeholder="직접 입력">
+                            </p>
+                            <!-- <p>
+                                <label for="">자기 소개 :</label>
+                                <br/><textarea name="yourself" id="itrd" cols="50" rows="5" placeholder="간단히 소개 부탁드립니다."></textarea>
+                            </p> -->
+                        </fieldset>
+                        <p class="pend">
+                            <input id="bu1" type="submit" value="가입하기">
+                            <input id="bu2" type="reset" value="처음부터 다시 시작하기">
+                        </p>
+                    </form>
+                </div> <!-- </div>ja -->
+            </div><!-- </div>scontainer -->
+        <div>
+            <footer class="e">
+                <div class="ed">
+                    copyright ⓒ 2022 KEEMSEUNGHYEON
+                </div>    
+            </footer>
+        </div>
+    </div>
+ 
+</body>
+</html>
