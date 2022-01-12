@@ -1,0 +1,12 @@
+        .caa {
+            display: flex;
+            text-align: center;
+            margin: 75px 0px;
+        }
+        .ca1 > img {
+            width: 700px;
+            margin: 100px 0px;
+        }
+        .ca1 > h2 {
+            color: #1e1d23;
+        }

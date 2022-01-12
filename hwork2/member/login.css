@@ -1,0 +1,30 @@
+      
+        div.log1 {
+            margin: 150px auto;
+            text-align: center;   
+            width: 600px;
+        }
+        .logb {
+            border: 10px solid #989898;
+            box-shadow: 20px 10px slategray;
+        }
+        label {
+            display: inline-block;
+            width: 130px;
+            text-align: justify;
+        }
+        fieldset {
+            border: none;
+        }
+        table {
+            display: inline-block;
+            border-collapse: collapse;
+        }
+        .lotbl td {
+            padding: 10px;
+            font-weight: bold;
+
+        }
+        h1, label {
+            color: #604457;
+        }

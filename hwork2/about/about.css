@@ -1,0 +1,16 @@
+        .st1 {
+            display: block;
+            margin: 180px 0px;
+        }
+        .rtc1 {          
+            display: flex;          
+            justify-content: space-evenly;
+        }
+        .rtc1 > img {
+            width: 400px;
+            height: unset;
+        }
+        .desc {
+            margin: auto 0;
+            width: 600px;
+        }
